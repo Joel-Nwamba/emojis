@@ -14,8 +14,9 @@ function renderEmoji(){
 addBtn.addEventListener("click", function() {
     if(inputField.value) {
         myEmojis.push(inputField.value);
-        console.log(myEmojis)
         inputField.value = "";
+        console.log(myEmojis);
+        emojiContainer.textContent = "";
         renderEmoji()
     }
 })

@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: rgb(135, 196, 127)
+
+}
+
+.person {
+    text-align: center;
+}
+
+.field {
+    margin: 150px 30px 40px;
+    text-align: center;
+}
+
+.field-input {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-btn1 {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btn-add, .btn-remove {
+    background-color: #4169e1;
+    cursor: pointer;
+}
+
+.btn-front, .btn-back {
+    background-color: rgb(99, 34, 34);
+    cursor: pointer;
+}
+
+.btn-remove:hover {
+    background-color: #fff;
+}
+
+.btn-add:hover {
+    background-color: #fff;
+}

@@ -4,6 +4,7 @@ const inputField = document.getElementById("input-field");
 const addBtn = document.getElementById("add-btn");
 const removeBtn = document.getElementById("remove-btn");
 const frontBtn = document.getElementById("front-btn");
+const removeFront = document.getElementById("remove-front-btn");
 
 function renderEmojis(){
     for(let i = 0; i < myEmojis.length; i++) {
@@ -39,4 +40,10 @@ frontBtn.addEventListener("click", function() {
         emojiContainer.textContent = "";
         renderEmojis()
     }
+});
+
+removeFront.addEventListener("click", function() {
+    myEmojis.shift();
+    emojiContainer.textContent = "";
+    renderEmojis();
 })
